@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="Nav">
+    <div>
+
+    <nav className="Nav-01">
       <div className="container">
         <img className="nav-img"
           src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
@@ -17,14 +19,17 @@ function Navbar() {
           </li>
 
           <li className="nav_item">
-            <NavLink to={"/"}>Pokemons</NavLink>
+            <NavLink to={"/Pokemon"}>Pokemons</NavLink>
           </li>
           <li className="nav_item">
-            <NavLink to={"/"}>Contato</NavLink>
+            <NavLink to={"/Contact"}>Contato</NavLink>
           </li>
         </ul>
       </div>
     </nav>
+    
+   
+    </div>
   );
 }
 

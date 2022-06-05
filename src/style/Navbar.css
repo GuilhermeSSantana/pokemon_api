@@ -6,7 +6,7 @@ li{
     list-style: none;
     text-decoration: none;
 }
-.Nav{
+.Nav-01{
     width: 100%;
     height: 110px;
     background: white;
@@ -33,4 +33,13 @@ li{
 .nav_item a {
     text-decoration: none;
     color: black;
+}
+
+/* Style do Home */ 
+.footer-container{
+    margin: 100px;
+}
+.text-1{
+    margin: 20px;
+    font-size: 45px;
 }
