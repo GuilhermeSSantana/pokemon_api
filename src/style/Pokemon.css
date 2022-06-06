@@ -1,0 +1,16 @@
+.container-poke{
+    padding: 50px 50px 30px 80px;
+    background: transparent;
+}
+.text-top{
+    font-size: 30px;
+    text-align: center;
+}
+.searchbar-container{
+    display: flex;
+}
+.container-tex{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}

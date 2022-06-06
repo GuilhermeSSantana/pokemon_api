@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "../style/Pokemon.css"
 
 const Searchbar = (props) => {
     const [search, setSearch] = useState("dito")
@@ -17,10 +18,8 @@ const Searchbar = (props) => {
     return (
         <div className="searchbar-container">
             <div className="searchbar">
-                <input placeholder="Buscar pokemon" onChange={onChangeHandler} />
-            </div>
-            <div className="searchbar-btn">
-                <button onClick={onButtonClickHandler} >Buscar</button>
+                <input placeholder="Buscar pokemon" onChange={onChangeHandler}/>
+                <button onClick={onButtonClickHandler} >🔎</button>
             </div>
         </div>
     )
