@@ -49,13 +49,13 @@ li{
 }
 
 .text-1{
-    display: block;
+    display: flex;
     width: 60%;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .text-2{
-    display: block;
+    display: flex;
     width: 50%;
     margin-top: 3%;
     font-family: Arial, Helvetica, sans-serif;
@@ -63,9 +63,22 @@ li{
     
 }
 .container-fundo{
+    display: flex;
     margin-left: -25%;
     margin-top: 10px;
 }
 .img-fundo{
+    display: flex;
     width: 700px;
 }
+.form-btn{
+    margin-top: 40px;
+    background-color: #00ffcd;
+    border: rgba(1, 0, 1, 0.50);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+  }
