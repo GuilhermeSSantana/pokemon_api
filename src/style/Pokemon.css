@@ -1,16 +1,27 @@
-.container-poke{
-    padding: 50px 50px 30px 80px;
-    background: transparent;
+.container-poke {
+  padding: 50px 50px 30px 80px;
+  background: transparent;
 }
-.text-top{
-    font-size: 30px;
-    text-align: center;
+.text-top {
+  font-size: 30px;
+  text-align: center;
 }
-.searchbar-container{
-    display: flex;
+.searchbar-container {
+  display: flex;
+  margin: 25px auto;
+  padding: 15 20px;
+  align-items: center;
 }
-.container-tex{
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-between;
+.searchbar {
+  background-color: white;
+  margin-right: 20;
+}
+.text-select {
+  display: flex;
+}
+.type-tex {
+  margin-left: 45px;
+  padding: 3px 40px;
+  font-size: 10%;
+  text-align: center;
 }

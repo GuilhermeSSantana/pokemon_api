@@ -11,8 +11,8 @@ function Pokemo() {
       <div className="search">
         <Searchbar />
       </div>
-      <div className="container-tex">
-        <div class="type-tex">
+      <ul className="text-select">
+        <li class="type-tex">
           <select id="tipo" required>
             <option selected disabled value="">
               Tipo
@@ -22,24 +22,24 @@ function Pokemo() {
             <option>Água</option>
             <option>Normal</option>
           </select>
-        </div>
-        <div class="type-ataque">
+        </li>
+        <li class="type-tex">
           <select id="ataque" required>
             <option selected disabled value="">
               Ataque
             </option>
-            <option>rápido</option>
-            <option>principal</option>
+            <option>Rápido</option>
+            <option>Principal</option>
           </select>
-        </div>
-        <div class="type-defesa">
+        </li>
+        <li class="type-tex">
           <select id="defesa" required>
             <option selected disabled value="">
               Defesa
             </option>
           </select>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }
