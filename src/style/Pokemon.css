@@ -20,11 +20,15 @@
     padding: 12px 500px;
     text-align: justify;
     border-radius: 25px;
+    border: transparent;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .search-button{
     padding: 12px 25px;
     text-align: justify;
-    border-radius: 25px;    
+    border-radius: 25px;  
+    border: transparent;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);  
 }
 .type-tex {
   margin-left: 80px;

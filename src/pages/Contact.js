@@ -1,7 +1,10 @@
 import React from "react";
-
+import "../style/Contact.css"
 function Contact() {
-  return <h1>DAle DAlee</h1>;
+  return (
+    <div >
+        </div>
+  );
 }
 
 export default Contact;
